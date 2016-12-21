@@ -81,6 +81,8 @@
         <!-- These remain empty unless the corresponding profile is active -->
         <profile.no-liquibase></profile.no-liquibase>
         <profile.swagger></profile.swagger>
+        
+        <activiti.version>5.22.0</activiti.version>
     </properties>
 
     <dependencies>
@@ -409,7 +411,32 @@
             <artifactId>spring-security-messaging</artifactId>
             <version>${spring-security.version}</version>
         </dependency>
-        <!-- jhipster-needle-maven-add-dependency -->
+        <!-- activit -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-basic</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
+        <!-- <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-rest-api</artifactId>
+            <version>${activiti.version}</version>
+        </dependency> -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-jpa</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-security</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-actuator</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
@@ -781,8 +808,8 @@
                                     <goal>install-node-and-npm</goal>
                                 </goals>
                                 <configuration>
-                                    <nodeVersion>v6.9.1</nodeVersion>
-                                    <npmVersion>3.10.9</npmVersion>
+                                    <nodeVersion>v6.9.2</nodeVersion>
+                                    <npmVersion>4.0.5</npmVersion>
                                 </configuration>
                             </execution>
                             <execution>
