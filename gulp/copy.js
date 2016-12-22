@@ -18,7 +18,8 @@ module.exports = {
     fonts: fonts,
     common: common,
     swagger: swagger,
-    images: images
+    images: images,
+    diagramViewer: diagramViewer
 }
 
 var yorc = require('../.yo-rc.json')['generator-jhipster'];
@@ -99,4 +100,11 @@ function images() {
         .pipe(plumber({errorHandler: handleErrors}))
         .pipe(changed(config.dist +  'bower_components'))
         .pipe(gulp.dest(config.dist +  'bower_components'));
+}
+
+function diagramViewer() {
+    return gulp.src(config.app + 'diagram-viewer/**')
+    .pipe(plumber({errorHandler: handleErrors}))
+    .pipe(changed(config.swaggerDist))
+    .pipe(gulp.dest(config.swaggerDist));
 }

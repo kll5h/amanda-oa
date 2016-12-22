@@ -30,6 +30,10 @@
                 "apidocs": "API",
                 "database": "Database",
                 "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+            },"process": {
+                "main": "Process",
+                "explorer": "Diagram Viewer",
+                "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
             },
             "language": "Language"
         },

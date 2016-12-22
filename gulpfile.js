@@ -42,6 +42,8 @@ gulp.task('copy:common', copy.common);
 
 gulp.task('copy:swagger', copy.swagger);
 
+gulp.task('copy:diagramViewer', copy.diagramViewer);
+
 gulp.task('copy:images', copy.images);
 
 gulp.task('images', function () {
@@ -79,7 +81,7 @@ gulp.task('inject:test', inject.test);
 
 gulp.task('inject:troubleshoot', inject.troubleshoot);
 
-gulp.task('assets:prod', ['images', 'styles', 'html', 'copy:swagger', 'copy:images'], build);
+gulp.task('assets:prod', ['images', 'styles', 'html', 'copy:swagger', 'copy:images', 'copy:swagger'], build);
 
 gulp.task('html', function () {
     return gulp.src(config.app + 'app/**/*.html')

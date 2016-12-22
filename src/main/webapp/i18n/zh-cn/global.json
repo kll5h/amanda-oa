@@ -30,6 +30,10 @@
                 "apidocs": "API",
                 "database": "数据库",
                 "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+            },"process": {
+                "main": "流程",
+                "explorer": "查看流程图",
+                "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
             },
             "language": "语言"
         },

@@ -21,8 +21,8 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://localhost:3306/AmandaOA?useUnicode=true&characterEncoding=utf8&useSSL=false
         name:
-        username: root
-        password:
+        username: xuht
+        password: xuht1234
         hikari:
             data-source-properties:
                 cachePrepStmts: true

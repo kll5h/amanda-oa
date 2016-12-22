@@ -13,7 +13,7 @@
 
 spring:
     application:
-        name: AmandaOA
+        name: Amanda OA
     jackson:
         serialization.write_dates_as_timestamps: false
     datasource:
@@ -72,8 +72,8 @@ jhipster:
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
     swagger:
-        title: AmandaOA API
-        description: AmandaOA API documentation
+        title: Amanda OA API
+        description: Amanda OA API documentation
         version: 0.0.1
         termsOfServiceUrl:
         contactName:

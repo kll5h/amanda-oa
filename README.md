@@ -1,4 +1,4 @@
-# AmandaOA
+# Amanda OA
 
 This application was generated using JHipster 3.12.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.12.2](https://jhipster.github.io/documentation-archive/v3.12.2).
 
@@ -31,7 +31,7 @@ For further instructions on how to develop with JHipster, have a look at [Using 
 
 ## Building for production
 
-To optimize the AmandaOA application for production, run:
+To optimize the Amanda OA application for production, run:
 
     ./mvnw -Pprod clean package
 

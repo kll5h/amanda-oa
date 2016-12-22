@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.amanda.oa</groupId>
+    <groupId>com.amanda</groupId>
     <artifactId>amanda-oa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>

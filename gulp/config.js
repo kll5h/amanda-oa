@@ -4,6 +4,7 @@ module.exports = {
     app: 'src/main/webapp/',
     dist: 'target/www/',
     swaggerDist: 'target/www/swagger-ui/',
+    diagramViewerDist: 'target/www/diagram-viewer/',
     test: 'src/test/javascript/',
     bower: 'src/main/webapp/bower_components/',
     tmp: 'target/tmp',
